@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open sans', sans-serif;.
+  font-family: 'Open sans', sans-serif;
   color: #2F2F2F;
 }
 
@@ -26,6 +26,12 @@ h3{
   margin:2%
 }
 
+.heading {
+    font-family: Open Sans,Helvetica,sans-serif;
+    font-weight: normal;
+    color: #333;
+}
+
 a {
   color: #333333;
 }
@@ -45,22 +51,9 @@ body {
   /*background-image: url(/images/portal/bgnoise_lg.png?1356077669); */
 }
 
-.nav-pills > li.active>a, 
-.nav-pills > li.active>a:focus, 
-.nav-pills > li.active>a:hover {
-  color: #FFF;
-  background-color: #F42684;
-}
-
-.main {
- 	display: block !important; 
-	float: none; 
-  	margin: auto;
-}
-
 .homesection {
   display: block;
-  width: 100%;
+  width: 100%
 }
 
 .form-portal .form-actions {
@@ -84,12 +77,10 @@ body {
 
 .content, .content-form, .content-light {
   padding: 1.8em 2.2em;
-  margin-top: 10px;
+  margin: auto;
   background-color: #f9f9f9;
   max-width: 800px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .help-center {
@@ -126,7 +117,7 @@ body {
   width: 70%;
   padding-right: 2%;
   border-right: none;
-  margin: 2% 0 2% 0;
+  margin-top: 2%;
   float:none;
 }
 
@@ -138,7 +129,7 @@ body {
   display: inline-block !important;
   vertical-align: middle;
   width: 49%;
-  margin: auto;
+  margin: 20px;
   float:none;
 }
 
@@ -156,7 +147,7 @@ body {
 }
 
 .cs-g {
-  width: initial;
+  width: 42.14815%;
   float: left;
   margin-right: 3.7037%;
   margin-left: 2%;
@@ -201,13 +192,13 @@ stamp-problems {
   background-color: none;
 }
 
-.breadcrumb a {
-  margin-right: 7px;
-  color: #333333;
+.badge-announcement:before, .page-stamp-announcement, .badge-ideas:before, .page-stamp-ideas, .badge-problems:before, .page-stamp-problems, .badge-questions:before, .page-stamp-questions, .page-stamp-article {
+    background-color: #F42684;
 }
 
-.breadcrumb a:hover {
-  color: #F42684; 
+.breadcrumb a {
+  margin-right: 7px;
+  color: #F42684;
 }
 
 .article-list, .topic-list {
@@ -221,8 +212,13 @@ stamp-problems {
   margin-top: 50px;
 }
 
-.topic-list a:hover {
+.icon-page-article {
   color: #F42684;
+}
+
+
+.list-lead, .list-lead a, {
+  color: #f42684;
 }
 
 .page-stamp-article {
